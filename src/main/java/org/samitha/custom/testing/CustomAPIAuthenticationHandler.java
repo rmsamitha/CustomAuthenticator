@@ -32,7 +32,7 @@ public class CustomAPIAuthenticationHandler extends AbstractHandler {
         log.info("Going to authenticate...");
         Map headers = getTransportHeaders(synCtx);
         String authHeader = getAuthorizationHeader(headers);
-        if (authHeader.startsWith("Bearer: SDSD4343DSSZZXZXZ43343")) {
+        if (authHeader.startsWith("Bearer: SDSD-4343D-SSZZX-ZXZ43-343K")) {
             log.info("Authenticated..!!");
             return true;
         }
